@@ -4,10 +4,6 @@
 	"version": "1.0",
 
 	"description": "Removes social media interaction elements from your web pages.",
-	
-	"icons": {
-		"48": ""
-	},
 
 	"content_scripts": [
 		{
