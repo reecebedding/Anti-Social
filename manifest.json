@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Anti-Social",
+	"version": "1.0",
+
+	"description": "Removes social media interaction elements from your web pages.",
+	
+	"icons": {
+		"48": ""
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*"],
+			"js": ["anti-social.js"]
+		}
+	]
+
+}
